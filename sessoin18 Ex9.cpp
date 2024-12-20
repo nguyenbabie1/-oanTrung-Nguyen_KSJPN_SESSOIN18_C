@@ -9,7 +9,7 @@ struct dish{
 		int price;
 	};
 struct dish menu[100]={
-		{1, "Pho Bo",50000},
+       {1, "Pho Bo",50000},
         {2, "Bun Cha",60000},
         {3, "Com Tam",45000},
         {4, "Banh Mi",30000},
@@ -62,14 +62,14 @@ int main(){
 				} else {
 					printf("Khong co mon an nao de sua.\n");
 				}
-				// In menu sau khi sua
+				// In menu 
 				for(int i=0; i<count; i++){
 					printf("Mon an %d:%d\n",i+1,menu[i].id);
 					printf("Ten mon an:%s\n",menu[i].name);
 					printf("Gia tien:%dVND\n",menu[i].price); 
 				}
 				break;
-			case 4://xoa mon an   
+			case 4://Xoa mon an   
 			if(count <=5){
 				menu[count].id=count -1;
 				printf("xoa mon an:");
@@ -86,7 +86,7 @@ int main(){
 					printf("Gia tien:%dVND\n",menu[i].price); 
 				}
 				break;
-			case 5:// sap xep tang dan 
+			case 5:// Sap xep tang dan 
 				break;
 			case 6:
 				// Tim kiem em 
