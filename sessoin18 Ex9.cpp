@@ -103,7 +103,7 @@ int main(){
 			        }
 			    }
 			    if(found == 0){
-			        printf("Khong tim thay em!!s\n", food);
+			        printf("Khong tim thay em!!\n", food);
 			    }
 				break;
 			case 7:
